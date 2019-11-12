@@ -1,4 +1,4 @@
-to run the api checkot to part-1 branch 
+to run the api checkout to part-1 branch 
 
 git checkout part-1
 
