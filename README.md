@@ -1,4 +1,6 @@
-to run the api checkout to part-1 branch 
+Clone the repo 
+
+checkout to part-1 branch 
 
 git checkout part-1
 
