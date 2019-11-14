@@ -10,5 +10,19 @@ app.use(morgan('dev'));
 
 app.use('/api/contacts', contactRoutes)
 
+//handle error
+app.use((req,res,next) => {
+  const error = new Error('Not Found!')
+  error.status = 404
+  next(error)
+})
+
+//custom error handler
+app.use((error, req, res, next ) => {
+  res.status(error.status || 500);
+  res.json({
+    message : error.message
+  })
+})
 
 app.listen(PORT, () => console.log('server running on port 3000'));
