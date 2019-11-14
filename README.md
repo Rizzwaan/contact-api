@@ -1,9 +1,6 @@
 Clone the repo 
+Checkout to branch part-1 for First article code
+Checkout to branch part-2 for Second article code 
 
-checkout to part-1 branch 
-
-git checkout part-1
-
-npm install
-
-node src/server.js
+git checkout <branch-name>
+ex- git checkout part-1
